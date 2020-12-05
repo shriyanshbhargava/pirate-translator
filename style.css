@@ -1,6 +1,7 @@
 body {
   background-color: whitesmoke;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .content {
@@ -13,15 +14,13 @@ body {
 
 .img {
   position: fixed;
-  width: 25rem;
-  top: 2.8rem;
-  right: 2.5rem;
-  transform: rotateY(180deg);
-  transform: rotateX(180deg);
+  width: 20rem;
+  right: 3rem;
+  bottom: 0;
 }
 
 #btn-translate {
-  background-color: rgb(31, 100, 37);
+  background-color: rgb(15, 26, 16);
   padding: 1rem 2rem 1rem 2rem;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -66,7 +65,7 @@ textarea {
   padding-left: 45rem;
   padding-right: 45rem;
   font-size: 35px;
-  background-color: rgb(80, 168, 57);
+  background-color: rgb(15, 26, 16);
   position: fixed;
   top: 0;
   width: 100%;
@@ -82,7 +81,7 @@ textarea {
 
 .footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(80, 168, 57);
+  background-color: rgb(56, 61, 56);
   margin-top: 4.5rem;
   position: relative;
   bottom: 0;
@@ -97,11 +96,10 @@ textarea {
 .connect {
   font-size: 2rem;
   font-weight: bolder;
-  padding : 2rem 2rem 0rem 2rem;
+  padding: 2rem 2rem 0rem 2rem;
   display: flex;
   justify-content: center;
 }
-
 
 @media (max-width: 576px) {
   .navbar {
@@ -112,7 +110,7 @@ textarea {
     padding-right: 100px;
     font-size: 25px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(80, 168, 57);
+    background-color: rgb(15, 26, 16);
     position: fixed;
     font-weight: bold;
     top: 0;
@@ -121,11 +119,10 @@ textarea {
 
   .img {
     position: fixed;
-    width: 15rem;
-    top: 1.5rem;
+    width: 25rem;
     right: 0.1rem;
-    transform: rotateY(180deg);
-    transform: rotateX(180deg);
+    bottom: 0;
+    width: 10rem;
   }
 
   #btn-translate {
@@ -159,7 +156,7 @@ textarea {
   }
 
   .footer {
-    background-color: rgb(80, 168, 57);
+    background-color: rgb(56, 61, 56);
     margin-top: rem;
     position: relative;
     width: 100%;
