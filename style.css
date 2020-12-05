@@ -13,8 +13,8 @@ body {
 
 .img {
   position: fixed;
-  width: 20rem;
-  top: 3.6rem;
+  width: 25rem;
+  top: 2.8rem;
   right: 2.5rem;
   transform: rotateY(180deg);
   transform: rotateX(180deg);
@@ -30,8 +30,8 @@ body {
 }
 
 textarea {
-  width: 30rem;
-  height: 10rem;
+  width: 35rem;
+  height: 15rem;
   display: block;
   margin: 1rem;
   padding: 1rem;
@@ -40,8 +40,8 @@ textarea {
 }
 
 #output {
-  width: 30rem;
-  height: 10rem;
+  width: 35rem;
+  height: 15rem;
   display: block;
   margin: 1rem;
   padding: 1rem;
@@ -63,7 +63,8 @@ textarea {
   margin: 0px;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 33rem;
+  padding-left: 45rem;
+  padding-right: 45rem;
   font-size: 35px;
   background-color: rgb(80, 168, 57);
   position: fixed;
@@ -82,7 +83,6 @@ textarea {
 .footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(80, 168, 57);
-
   margin-top: 4.5rem;
   position: relative;
   bottom: 0;
@@ -91,14 +91,77 @@ textarea {
 
 .social {
   padding: 5px 18px 20px 18px;
-  width: 35px;
+  width: 50px;
 }
 
 .connect {
-
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: bolder;
-  padding-top: 2rem;
+  padding : 2rem 2rem 0rem 2rem;
   display: flex;
   justify-content: center;
+}
+
+
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(80, 168, 57);
+    position: fixed;
+    font-weight: bold;
+    top: 0;
+    width: 100%;
+  }
+
+  .img {
+    position: fixed;
+    width: 15rem;
+    top: 1.5rem;
+    right: 0.1rem;
+    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+  }
+
+  #btn-translate {
+    background-color: rgb(31, 100, 37);
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.25rem double whitesmoke;
+    border-radius: 5px;
+  }
+
+  textarea {
+    width: 15rem;
+    height: 8rem;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.25rem solid black;
+    border-radius: 5px;
+  }
+
+  #output {
+    width: 15rem;
+    height: 8rem;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.25rem solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+
+  .footer {
+    background-color: rgb(80, 168, 57);
+    margin-top: rem;
+    position: relative;
+    width: 100%;
+  }
 }
