@@ -15,7 +15,7 @@ body {
 .img {
   position: fixed;
   width: 30rem;
-  right: 3rem;
+  right: 1rem;
   bottom: 0;
 }
 
@@ -112,14 +112,7 @@ textarea:focus {
     display: none;
   }
 
-  #btn-translate {
-    background-color: rgb(31, 100, 37);
-    padding: 1rem 2rem 1rem 2rem;
-    color: white;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    border: 0.25rem double whitesmoke;
-    border-radius: 5px;
-  }
+
 
   textarea, #output {
     width: 15rem;
