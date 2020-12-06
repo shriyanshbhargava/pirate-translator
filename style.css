@@ -52,7 +52,7 @@ textarea:focus {
 }
 
 .navbar {
-  display: flex;
+  text-align: center;
   margin: 0px;
   padding-top: 2rem;
   padding-bottom: 2rem;
